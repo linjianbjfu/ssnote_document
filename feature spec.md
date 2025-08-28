@@ -14,6 +14,8 @@
 │   ├── ...
 │   ├── 
 │
+├── Long Notes(2.0)
+│
 ├── 设置 (Settings)
 │   ├── 账户与订阅
 │   │   ├── 登录/注册
@@ -25,6 +27,7 @@
 │
 └── 底部导航栏
     ├── Home
+    ├── + Long Notes (2.0)
     └── Cards/Notes
 ```
 
@@ -34,7 +37,8 @@
 
 
 ## Check List
-### Markdown VS Html
+- [ ] Server vs Client-side (订阅/API Key 配置)
+- [ ] [Markdown](https://docs.github.com/zh/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) VS Html
 
 | 维度             | Markdown                                                                 | HTML                                                                 |
 |------------------|--------------------------------------------------------------------------|----------------------------------------------------------------------|
@@ -44,6 +48,7 @@
 | **导出**   | - 可无缝导出到 GitHub、Obsidian、Notion 等<br>- AI 工具对 Markdown 解析更好<br>- 适合跨平台分享 | - HTML → PDF/Word/Doc 导出容易 |
 | **分享**     | - 分享成图片<br>- 分享到Web(CDN) 需要转html | - 分享成图片<br>- 分享到Web(CDN) |
 | **移动端编辑能力**   | - 大量现成开源 Markdown 编辑器<br>- 可结合语法高亮、预览同步<br>- 原生支持简单 | - 需要调研WebView到编辑能力 |
+
 
 ### Todo
 - [ ] Webview渲染Html在移动端端编辑体验(e.g. document.body.contentEditable = "true";)
